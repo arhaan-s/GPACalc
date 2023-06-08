@@ -9,17 +9,11 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.text.Text;
 import javafx.scene.layout.FlowPane;
-import javafx.scene.layout.GridPane;
-import javafx.geometry.Insets;
 import javafx.geometry.Orientation;
 import javafx.geometry.Pos;
 import javafx.event.ActionEvent;
 import java.text.NumberFormat;
 
-/**
-This class creates a GUI to calculate cumulative GPA and points for a specific course.
-@author Arhaan Sami
-*/
 public class GPACalc extends Application{
 	private TextField letterGradeIn;
 	private TextField creditHrsIn;
